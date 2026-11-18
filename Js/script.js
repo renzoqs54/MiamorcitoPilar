@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { 
   let text = getURLParam('text');
   if (!text) {
-    text = `Para mi amorcito Pilar:\n\nDesde el primer momento que te ví me enamoré perdidamente. Tu sonrisa, tu voz, tus ojos, como eres conmigo... me gusta todo de ti.\n\nGracias por todo tu amor, por tus detallitos conmigo, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar :).`;  } else {
+    text = `Para mi amorcito Pilar:\n\nDesde el primer momento que te ví me enamoré perdidamente. Tu sonrisa, tu voz, tus ojos, como eres conmigo... me gusta todo de ti.\n\nGracias por todo tu amor, por tus detallitos conmigo, y por llenar mis días de amor.\n\nTe amo más de lo que las palabras pueden expresar(holaaa Piliii, aquí estoy y puedes ver que no he dejado esta web abandonada, inclusive tendrá más mensajes a partir de ahora) :).`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
